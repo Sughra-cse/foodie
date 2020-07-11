@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="CSS/register.css"/>
+</head>
+<body>
+<div class="container">
+    <div class="container1"></div>
+    <div class="container2">
+        <center><h1>Register</h1></center>
+<form style="max-width:500px;margin:auto">
+  <div class="input-container">
+    <label for="name"><i class="fa fa-user icon"></i><b>Username</b></label>
+    <input class="input-field" type="text" placeholder="Example: John Doe" name="usrnm">
+  </div>
+
+  <div class="input-container">
+    <label for="number"></label><i class="fa fa-mobile icon"></i><b>Mobile</b></label>
+    <input class="input-field" type="tel" placeholder="Example: +9123234561" name="phn">
+  </div>
+
+  <div class="input-container">
+    <label for="email"><i class="fa fa-envelope icon"></i><b>Email</b></label><br>
+    <input class="input-field" type="email" placeholder="Example: Johndoe@gmail.com" name="email">
+  </div>
+  
+  <div class="input-container">
+    <label for="dob"><i class="fa fa-calendar icon"></i><b>DOB</b></label><br>
+    <input class="input-field" type="date" name="date">
+  </div>
+    <label for="gender"> <i class="fa fa-male icon"></i> <i class="fa fa-female icon"></i><b>Gender</b></label><br>
+    <div class="input-container">
+        <span>
+    <input class="input-field" type="radio" name="gender">Male
+    <input class="input-field" type="radio" name="gender">Female
+    <input class="input-field" type="radio" name="gender">Other
+</span>
+  </div>
+ <label>
+      <input checked="checked" type="checkbox"/> &nbsp; By an account you agree to our <a href="#">Terms & Privacy</a>.
+    </label>
+    <button type="submit" class="btn">Register</button>
+  <div class="container signin">
+    <p>Already have an account? <a href="#">LogIn</a>.</p>
+  </div>
+</form>
+</div>
+</div>
+</body>
+</html>
