@@ -17,8 +17,9 @@
   </div>
 
   <div class="input-container">
-    <label for="number"></label><i class="fa fa-mobile icon"></i><b>Mobile</b></label>
-    <input class="input-field" type="tel" placeholder="Example: +9123234561" name="phn">
+    <label for="telNo"></label><i class="fa fa-mobile icon"></i><b>Mobile</b></label>
+    <input class="input-field" type="tel" placeholder="Example: +9123234561" name="telNo" pattern="/^\d{10}$/" size="20" min="9" max="12">
+    <span class="validity"></span>
   </div>
 
   <div class="input-container">
@@ -30,7 +31,7 @@
     <label for="dob"><i class="fa fa-calendar icon"></i><b>DOB</b></label><br>
     <input class="input-field" type="date" name="date">
   </div>
-    <label for="gender"> <i class="fa fa-male icon"></i> <i class="fa fa-female icon"></i><b>Gender</b></label><br>
+    <label style="margin-left: 40px;" for="gender"> <i class="fa fa-male icon"></i> <i class="fa fa-female icon"></i><b>Gender</b></label><br>
     <div class="input-container">
         <span>
     <input class="input-field" type="radio" name="gender">Male
@@ -38,13 +39,14 @@
     <input class="input-field" type="radio" name="gender">Other
 </span>
   </div>
- <label>
+ <label class="input-container">
       <input checked="checked" type="checkbox"/> &nbsp; By an account you agree to our <a href="#">Terms & Privacy</a>.
     </label>
-    <button type="submit" class="btn">Register</button>
-  <div class="container signin">
-    <p>Already have an account? <a href="#">LogIn</a>.</p>
+    <div class="input-container">
+    <button  class="input-field" type="submit" id="btn">Register</button>
   </div>
+<center>    <p>Already have an account? <a href="#">LogIn</a>.</p>
+</center>
 </form>
 </div>
 </div>

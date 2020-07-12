@@ -12,17 +12,17 @@ body {font-family: Arial, Helvetica, sans-serif;}
     .container2{
         width: 50%;
         float: right;
-    }
-    h1{
-        
-        width: fit-content;
+        margin: 10px;
+        margin-left: 30px;
     }
 .input-container {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   margin: 25px 0;
+  margin-left: 40px;
 }
 .input-container span{
     display: flex;
+    margin-left: -45px;
 }
 .icon {
   padding: 10px;
@@ -33,32 +33,37 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .input-field {
   padding: 10px;
   border: 2px solid #ccc;
-  width:82%;
+  width:95%;
   border-radius: 15px;
 
 }
 
 /* Set a style for the submit button */
-.btn {
+#btn {
   background-color: #c54646;
   color: white;
   margin: 30px 0;
-  cursor: pointer;
-  border: none;
-  border-radius: 30px;
-  width:90%;
+  cursor: pointer; 
   padding: 15px 20px;
   opacity: 0.9;
-  margin-left: 30px;
+
 }
 
 .btn:hover {
   opacity: 1;
 }
-.signin {
-  text-align: center;
-  margin-left: 30px;
+/* input:invalid+span:after {
+  position: absolute; content: '✖';
+  padding-left: 5px;
+  color: #8b0000;
 }
+
+input:valid+span:after {
+  position: absolute;
+  content: '✓';
+  padding-left: 5px;
+  color: #009000;
+} */
 @media screen and (max-width: 700px) {
  .container{
      display: block;

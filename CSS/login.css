@@ -21,6 +21,7 @@
   padding: 10px;
   color: black;
   min-width: 50px;
+  margin-left: 40px;
 }
 input[type=email], input[type=password] {
   padding: 12px 20px;
@@ -29,6 +30,7 @@ input[type=email], input[type=password] {
   border: 2px solid #ccc;
   width:80%;
   border-radius: 15px;
+  margin-left: 40px;
 }
 
 button {
@@ -38,9 +40,9 @@ button {
   margin: 30px 0;
   border: none;
   cursor: pointer;
-  border-radius: 30px;
+  border-radius: 15px;
   width:80%;
-
+  margin-left: 40px;
 }
 
 button:hover {
